@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Banco Digital </title>
+	</head>
+
+	<style> 
+	
+		.erroLogin {
+		
+			color:red;
+		
+		}
+		
+		.cliente-screen {
+		
+			display:none;
+		
+		}
+	
+	</style>
+
+	<body>
+    
+		<div class='login-screen'> 
+
+			<input type='email' placeholder='Email' class='txtemail'>
+			<input type='password' placeholder='Senha' class='txtsenha'>
+			
+			<span class='erroLogin'> </span>
+			
+			<button type='button' class='btnLogin'> Entrar </button>
+
+		</div>
+		
+		<div class='cliente-screen'>
+		
+			<div class='nome-cliente'> </div>
+			<div class='numero-conta-cliente'> </div>
+			<div class='saldo-cliente'> </div>
+			
+			<button type='button' class='btnTransferir'> Realizar Transferência </button>
+			<button type='button' class='btnSacar'> Realizar Saque </button>
+			<button type='button' class='btnDepositar'> Realizar Depósito </button>
+			<button type='button' class='btnExtrato'> Visualizar Extrato </button>
+			
+			<button type='button' class='btnFinalizarSessao'> Finalizar Sessão </button>
+		
+		</div>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
